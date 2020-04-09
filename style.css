@@ -1,0 +1,165 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #445162;
+    height: 323px;
+    padding: 50px 0;
+    
+}
+
+.header-container {
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header-title {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+ul {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    list-style-image: url(img/check_icon.png);
+    list-style-position: inside;
+}
+
+.about {
+    height: 345px;
+    color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.about-container {
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-text {
+    width: 650px;
+}
+
+.about-container p {
+    margin-bottom: 10px;
+}
+
+.about-title {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    
+}
+
+.dignity {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    
+}
+
+.dignity-container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.dignity-wrap {
+    display: flex;
+}
+
+.dignity-text {
+    color: #333333;
+    list-style-image: url(img/image48.png);
+    list-style-position: inside;
+}
+
+.dignity-container li {
+    margin: 20px 20px 20px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.screenshots {
+    height: 487px;
+    padding: 50px 0;
+}
+
+.screenshots-container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.screenshots-description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 590px;
+    
+}
+
+.screenshots-wrap {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.screenshots-text {
+    width: 360px;
+    margin: 0 10px;
+}
+
+.screenshots p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    
+}
+
+.screenshots-wrap h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin-bottom: 20px;
+}
