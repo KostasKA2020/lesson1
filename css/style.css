@@ -196,18 +196,15 @@ p {
     display: flex;
     margin-bottom: 25px;
     width: 574px;
-
 }
 
 .reviews img {
     margin-right: 16px;
-
 }
 
 .reviews-text {
     background-image: url(../img/bg_review_190.png);
     padding: 15px 20px 15px 27px;
-
 }
 
 .reviews p {
