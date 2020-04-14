@@ -215,22 +215,26 @@
 </section>
 
 <footer class="contacts">
-    <div class="container">
+    <div class="contacts-container">
         <h2>Contacts</h2>
-        <form action="example.php">
-            <input type="text" name="firstname" value="Your name">
-            <input type="email">
-            <textarea name="message" id="" cols="30" rows="6"></textarea>
-            <input type="submit">
-        </form>
         <div class="contacts-wrap">
-            <ul>
-                <li>here_your_login_skype</li>
-                <li>279679659</li>
-                <li>psdhtmlcss@mail.ru</li>
-                <li>80 00 4568 55 55</li>
-            </ul>
-            <div class="social"></div>
+            <form action="example.php">
+                <input class="contacts-text" type="text" name="firstname" placeholder="Your name:">
+                <input class="contacts-text" type="email" name="email" placeholder="Your email:">
+                <textarea class="contacts-text" name="message" cols="30" rows="6" placeholder="Your message:"></textarea>
+                <input class="send" type="submit" value="SEND">
+            </form>
+            <div class="contacts-communication">
+                <ul>
+                    <li class="skype">here_your_login_skype</li>
+                    <li class="icq">279679659</li>
+                    <li class="me-email">psdhtmlcss@mail.ru</li>
+                    <li class="phone">80 00 4568 55 55</li>
+                </ul>
+                <div class="social">
+                    <img src="img/social_buttons_338.png" alt="social">
+                </div>
+            </div>
         </div>
     </div>
     <p class="copyright">Copyright &copy; 2014 Product name - PSD HTML CSS</p>
