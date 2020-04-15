@@ -108,20 +108,30 @@ p {
     margin: 0 auto;
 }
 
-.dignity-container li:last-child {
-    margin: 0;
-}
-
 .dignity-wrap {
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.dignity-text {
+.dignity-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.dignity-list {
     color: #333333;
     list-style-position: inside;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.dignity-container li {
+.dignity-list li {
+    width: 48%;
     position: relative;
     margin: 0 20px 20px 0;
     font-size: 16px;
@@ -133,32 +143,50 @@ p {
 }
 
 .dignity-container li:before {
-    content: url(../img/image48.png);
+    content:"+";
     position: absolute;
+    display:block;
+    width: 32px;
+    height: 32px;
+    background-color: #445162;
     top: 5px;
     left:0;
-    display:block;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 40px;
+    line-height: 34px;
  }
 
+.dignity-list li:nth-child(5),
+.dignity-list li:last-child {
+    margin-bottom: 0;
+}
+
 .screenshots {
-    min-height: 487px;
+    /*min-height: 487px;*/
     padding: 50px 0;
 }
 
 .screenshots-description {
     display: flex;
     flex-wrap: wrap;
+   /* align-content: space-between;*/
     flex-basis: 590px;
 }
 
 .screenshots-wrap {
+    width: 550px;
     display: flex;
     margin-bottom: 20px;
 }
 
+/*
 .screenshots-wrap:nth-child(3),
 .screenshots-wrap:nth-child(4) {
-    margin: 0;
+    margin-bottom: 0;
+*/
 }
 
 .screenshots-text {
@@ -166,19 +194,21 @@ p {
     margin: 0 10px;
 }
 
-.screenshots p {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #333333;
-}
-
-.screenshots-wrap h3 {
+.screenshots-text h3 {
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
     color: #445161;
     margin-bottom: 4px;
+    padding: 0 10px;
+}
+
+.screenshots p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    padding: 0 10px;
 }
 
 .reviews-container {
