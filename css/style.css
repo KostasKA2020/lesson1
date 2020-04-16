@@ -79,7 +79,7 @@ h2 {
 }
 
 .about-container p:last-child {
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 .about-title {
@@ -97,7 +97,7 @@ p {
 .dignity,
 .reviews {
     background-color: #f5f5f5;
-    padding: 50px 0;
+    padding: 50px 0 30px;
 }
 
 .dignity-container,
@@ -154,14 +154,14 @@ p {
     text-align: center;
     font-weight: bold;
     color: #fff;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 34px;
  }
 
-.dignity-list li:nth-child(5),
+/*.dignity-list li:nth-child(5),
 .dignity-list li:last-child {
     margin-bottom: 0;
-}
+}*/
 
 .screenshots {
     /*min-height: 487px;*/
@@ -271,7 +271,7 @@ p {
 }
 
 .buy {
-    padding: 50px 0;
+    padding: 50px 0 30px;
 }
 
 .buy-wrap {
