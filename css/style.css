@@ -225,7 +225,7 @@ p {
 .reviews-blog {
     display: flex;
     margin-bottom: 25px;
-    width: 550px;
+    width: 570px;
 }
 
 .reviews img {
@@ -253,7 +253,6 @@ p {
 }
 
 .reviews p {
-    width: 436px;
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
@@ -284,13 +283,11 @@ p {
 
 .buy-column {
     width: 300px;
-    padding: 16px 0 0;
+    padding: 19px 0;
     background-color: #445162;
     border: 3px solid #445162;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 22px;
+    border-radius: 6px;
+    margin: 0 22px 20px;
 }
 
 .buy h3 {
@@ -313,31 +310,40 @@ p {
     padding: 18px 0;
 }
 
-.buy-content {
-    padding: 19px 20px 19px 20px;
-}
-
 .buy ol {
     list-style-position: inside;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
-    margin-bottom: 14px;
+    padding: 18px;
 }
 
-.buy a {
-    display: inline-block;
-    width: 100%;
+.buy-btn {
+    display: block;
+    width: 260px;
+    margin: 0 auto;
     background-color: white;
     font-size: 18px;
     line-height: 18px;
     font-weight: 700;
     color: #445161;
-    text-decoration: none;
+    text-transform: uppercase;
     text-align: center;
     padding: 14px;
-    border-radius: 5px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #445161;
+    color: #ffffff;
+}
+
+.buy-btn:active {
+    background-color: #ffffff;
+    color: #445161;
 }
 
 .contacts {
@@ -372,6 +378,7 @@ p {
     width: 100%;
     margin-bottom: 20px;
     border-radius: 6px;
+    outline: none;
 }
 
 .send {
@@ -383,6 +390,18 @@ p {
     font-weight: 700;
     text-transform: uppercase;
     color: #445162;
+    outline: none;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: #445161;
+    color: #ffffff;
+}
+
+.send:active {
+    background-color: #ffffff;
+    color: #445161;
 }
 
 .contacts-wrap {
