@@ -75,7 +75,7 @@ h2 {
 }
 
 .about-container p {
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .about-container p:last-child {
@@ -191,7 +191,7 @@ p {
 
 .screenshots-text {
     width: 360px;
-    margin: 0 10px;
+    margin: 0 0 0 10px;
 }
 
 .screenshots-text h3 {
@@ -200,7 +200,7 @@ p {
     font-weight: 400;
     color: #445161;
     margin-bottom: 4px;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
 }
 
 .screenshots p {
@@ -208,7 +208,7 @@ p {
     line-height: 24px;
     font-weight: 400;
     color: #333333;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
 }
 
 .reviews-container {
@@ -299,7 +299,8 @@ p {
     font-weight: 400;
 }
 
-.buy p {
+.buy-value {
+    display: block;
     background-color: white;
     font-size: 40px;
     line-height: 30px;
@@ -378,6 +379,7 @@ p {
     margin-bottom: 20px;
     border-radius: 6px;
     outline: none;
+    resize: none;
 }
 
 .send {
