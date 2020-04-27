@@ -425,7 +425,6 @@ p {
     position: relative;
     margin: 0 20px 20px 0;
     padding-left: 42px;
-    /*list-style-image: none;*/
     font-size: 20px;
     line-height: 36px;
     font-weight: 400;
@@ -482,7 +481,6 @@ p {
     position: relative;
     margin: 0 20px 20px 0;
     padding-left: 42px;
-    /*list-style-image: none;*/
     font-size: 20px;
     line-height: 36px;
     font-weight: 400;
@@ -498,7 +496,35 @@ p {
 }
 
 .social {
+    width: 240px;
     margin-left: 30px;
+    display: flex;
+}
+
+.social-icon {
+    display: block;
+    width: 46px;
+    height: 42px;
+    background-image: url("../img/social_buttons_338.png");
+}
+
+.social-icon:nth-child(1) {
+    background-position: 0px 0px;
+}
+
+.social-icon:nth-child(2) {
+    margin-left: 5px;
+    background-position: -49px 0px;
+}
+
+.social-icon:nth-child(3) {
+    margin-left: 5px;
+    background-position: -98px 0px;
+}
+
+.social-icon:nth-child(4) {
+    margin-left: 5px;
+    background-position: -148px 0px;
 }
 
 .copyright {
